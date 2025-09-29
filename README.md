@@ -2,7 +2,7 @@
 
 An intelligent tool that helps job seekers optimize their resumes by comparing them with job descriptions using Natural Language Processing (NLP) and AI. Get instant feedback on how well your resume matches a job posting, along with actionable suggestions to improve your chances.
 
-🌟 Features
+## 🌟 Features
 
 Smart Matching Algorithm: Uses TF-IDF vectorization and cosine similarity to calculate match scores
 Keyword Analysis: Automatically extracts and compares keywords from both resume and job description
@@ -11,7 +11,7 @@ AI-Powered Suggestions: Get personalized recommendations using OpenAI's GPT mode
 Visual Feedback: Color-coded scores and intuitive UI for easy understanding
 Real-time Analysis: Instant results as you input your text
 
-📖 Usage
+## 📖 Usage
 
 Paste Your Resume: Copy your resume text into the left text area
 Paste Job Description: Copy the target job description into the right text area
@@ -23,14 +23,14 @@ Review matching keywords
 Identify missing keywords
 Get AI-powered suggestions (requires API key)
 
-📊 Understanding Your Score
+## 📊 Understanding Your Score
 
 70-100%: Excellent match! Your resume aligns well
 50-69%: Good match, but room for improvement
 Below 50%: Consider significant revisions
 
 
-Getting OpenAI API Key 
+## Getting OpenAI API Key 
 
 Visit OpenAI Platform
 Sign up or log in
@@ -39,7 +39,8 @@ Create new secret key
 Enter the key in the app's sidebar
 
 Note: Basic matching functionality works without an API key!
-🛠️ Technology Stack
+
+## 🛠️ Technology Stack
 
 Frontend: Streamlit
 NLP/ML: Scikit-learn (TF-IDF, Cosine Similarity)
@@ -47,7 +48,7 @@ AI Integration: OpenAI API (GPT-3.5-turbo)
 Data Processing: NumPy, Regex
 Language: Python 3.8+
 
-How It Works
+## How It Works
 
 Text Preprocessing: Cleans and normalizes input text
 Feature Extraction: Uses TF-IDF to convert text to numerical vectors
@@ -57,8 +58,10 @@ Gap Analysis: Finds keywords present in job description but missing from resume
 AI Enhancement: Sends analysis to GPT for personalized suggestions
 
 
-Algorithm Overview
-python# Simplified flow
+## Algorithm Overview
+'''bash
+python
+# Simplified flow
 1. Preprocess text (lowercase, remove special chars)
 2. TF-IDF Vectorization (convert to numbers)
 3. Cosine Similarity (compare vectors)
@@ -66,3 +69,4 @@ python# Simplified flow
 5. Extract top keywords from both documents
 6. Identify matches and gaps
 7. Generate suggestions (AI or rule-based)
+'''
